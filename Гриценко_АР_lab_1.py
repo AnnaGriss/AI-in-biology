@@ -39,4 +39,3 @@ def bayesian_probability(a, b, ba):
         return 0
     p=(ba * a) / b
     return p
-
