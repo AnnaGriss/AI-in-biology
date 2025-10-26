@@ -6,9 +6,8 @@ def logical_or(m, k, n):
     p=m/n + k/n
     return p
 
-def logical_and(m, n, k, l):
-    p=(m/k) * (n/k)
-    return p
+def logical_and(m, k, n, l):
+    return (m/n) * (k/l)
 
 def expected_value(values, probabilities):
     exp = 0
